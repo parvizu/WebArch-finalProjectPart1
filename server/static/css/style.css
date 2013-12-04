@@ -1,0 +1,30 @@
+#urlform input[type="submit"]{
+	display:block;
+	vertical-align: super;
+}
+#urlform label{
+	display:inline-block;
+}
+.errors{
+	color: red;
+	margin-left: 9em;
+	margin-top: -2em;
+}
+
+p a{
+	text-decoration:none;
+	color:#5bb75b;
+}
+#shortToggle2{
+	margin-left:10px;
+}
+#shorty{
+	display:none;
+}
+input[type="radio"]{
+	margin: -2px 0 0;
+}
+.lead{
+	margin-bottom: 16px;
+	cursor: default;
+}
