@@ -1,0 +1,92 @@
+
+#wrapper
+{
+	width:1000px;
+	margin: 0 auto;
+}
+
+
+#result
+{
+	/*background-image: url(../img/IMG_6027.JPG);*/
+	width:600px;
+	text-align: center;
+	background-color: silver;
+	height:500px;
+	border-radius: 2px;
+}
+
+#inputs
+{
+	background-color: LightBlue;
+	border-radius: 3px;
+	padding: 10px;
+}
+label.textLabel
+{
+
+	font-size: 10pt;
+}
+
+#input
+{
+	margin:10px;
+}
+
+#input label
+{
+	font-size: 15pt;
+
+}
+
+#result, #input
+{
+	margin-top:10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#backgrounds
+{
+	width:330px;
+	padding: 10px;
+	background-color: lightsteelblue;
+	border-radius:3px;
+	overflow-y:auto;
+	height:250px;
+}
+
+#memeTop, #memeBottom
+{
+	height: 80px;
+	margin:5px;
+	position: relative;
+	font-family: Impact, Charcoal, sans-serif;
+	z-index: 10;
+
+}
+
+.thumbnails
+{
+	height: 80px;
+	cursor: pointer;
+	margin:.1px;
+}
+
+.memeText
+{
+	font-size: 40px;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+	color: white;
+	line-height: 40px;
+}
+
+#memeTop
+{
+	top:10px;
+}
+
+#memeBottom
+{
+	top:320px;
+}

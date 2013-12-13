@@ -1,0 +1,49 @@
+#container
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+		margin-top: 50px;
+	}
+	img
+	{
+		border-radius:5px;	
+	}
+	
+	#back
+	{
+		position: absolute;
+		left: 55%;
+		top: 50%;
+		z-index: 100;
+	
+		margin-top: -200px;
+		margin-left: -200px;	
+	}
+	
+	#background
+	{
+		background: rgba(54, 25, 25, .5);	
+		width: 100%;
+		height:100%;
+	}
+	
+	a
+	{
+		position: relative;
+		top:-90px;	
+		left:240px;
+		height: 40px;
+	}
+	#counter
+	{
+		display:block;
+		width: 240px;
+		border-radius:5px;
+		background-color:#999;
+		margin-top:2px;
+		float:none;
+		padding:20px;
+		font-size:36px;
+		text-align:center;
+	}
