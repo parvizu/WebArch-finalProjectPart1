@@ -63,7 +63,7 @@ $(document).ready(function()
 			var params = {'img': img, 'top':top, 'bottom':bottom};
 			$.ajax(
 			{
-				url: "savememe",
+				url: "saveMeme",
 				method: 'POST',
 				data: params,
 				success: function(data)
