@@ -60,17 +60,19 @@ $(document).ready(function()
 			console.log(top);
 			console.log(bottom);
 
+			var params = {'img': img, 'top':top, 'bottom':bottom};
 			$.ajax(
 			{
-				url: "savememe"
+				url: "savememe",
 				method: 'POST',
-				data: params
+				data: params,
 				success: function(data)
 				{
 					console.log(data);
-					
 				}
-			});
+
+			})
+
 
 			// var html = '<!DOCTYPE html><head><title>MIMS GENERATOR - powered by Lui.gi</title><style> #result { background-image: '+img+'; width:600px; margin 0 auto;
 			// 		text-align: center;
