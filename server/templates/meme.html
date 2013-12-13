@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+	<link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="../static/css/meme.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../static/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="../static/js/html2canvas.js"></script>
+	<script src="../static/js/meme.js"></script>
+</head>
+	
+<body>
+	<div id="input">
+		<label for="backgrounds">Step 1. Choose a photo</label>
+		<div id="backgrounds">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5202.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5210.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5217.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5226.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5229.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5233.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5246.JPG">
+			<img class="thumbnails" src="../static/img/memeBackgrounds/IMG_5821.JPG">
+			
+		</div>
+		<br>
+		<label for="inputs">Step 2. Write away</label>
+		<div id="inputs">
+			<label for="textTop" class="textLabel">Top text:</label><input type="text" id="textTop" maxLength="100"><br>
+			
+			
+			<label for="textBottom"  class="textLabel">Bottom text:</label>
+			<input type="text" id="textBottom" maxLength="85">
+		</div><br>
+		<a hre="" class="btn btn-warning btn-large" id="savingMeme">Save MIMS Meme</a>
+		
+	</div>
+
+		<div id="result">
+			<div id="memeTop"><span class="memeText" ></span></div>
+			<div id="memeBottom"><span class="memeText"></span></div>
+		</div>
+
+	<div id="endHTML"></div>
+</body>
+</html>
