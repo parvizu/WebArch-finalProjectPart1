@@ -1,9 +1,15 @@
 
+#wrapper
+{
+	width:1000px;
+	margin: 0 auto;
+}
+
+
 #result
 {
 	/*background-image: url(../img/IMG_6027.JPG);*/
 	width:600px;
-	margin 0 auto;
 	text-align: center;
 	background-color: silver;
 	height:500px;
