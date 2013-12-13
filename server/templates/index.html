@@ -3,6 +3,7 @@
 	
 	<head>
 		<meta name="description" content="URL Shortener">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Pablo.Jlo.Ramit Productions</title>
 		<link rel="stylesheet" href="static/css/default.css">
@@ -10,66 +11,71 @@
 		<link rel="stylesheet" href="static/css/bootstrap.css" type="text/css">
 		<link rel="stylesheet" href="static/css/style.css" type="text/css">
 		<link rel="stylesheet" href="static/css/cascading_sheet.css" type="text/css">	
-		<link rel="stylesheet" href="static/css/style.css" type="text/css">
+		<!--mobile responsive stylesheet-->
+		<link rel="stylesheet" media="all" href="static/css/mobile_only.css" type="text/css">
 	</head>
 	
 	<body>
-		<div class="container">
-			<div class="header">
-			        <ul class="nav nav-pills pull-right">
-			          <li class="active"><a href="#">Home</a></li>
-			          <li><a href="about">About</a></li>
-			        </ul>
-				<h3 class="text-muted">Shorti.fy</h3>
-			</div>
-			
-			<div class="jumbotron">
-				<div class="container">
-			        <h2>Make Your Own Shortened URL</h2>
-			        <p class="lead">Say Goodbye to Long Addresses.</p>
+			<div class="container">
+				<div class="header">
+				        <ul class="nav nav-pills pull-right">
+				          <li class="active"><a href="#">Home</a></li>
+				          <li><a href="about">About</a></li>
+				          <li><a href="meme_generator">Surprise</a></li>
+				        </ul>
+					
+					<h3 class="text-muted">
+						<img id="logo" src="static/img/100px_Luigi.png" height="42" width="42">ui.gi</h3>
+
 				</div>
-			</div>
-			
-			<p class="lead">Redefine any link that you want</p>
-			<ol>
-				<li>Customize your own URL links.</li>
-				<li>Allows for ease of sharing.</li>
-			</ol>
-	
-			<form id="urlform">
-				<label class="lead">Long URL: 
-					<input type="url" name="longUrl" placeholder="Insert a really long URL" required>
-				</label>
-				<div></div>
-				<div class="lead">
-					<label for ="shortToggle1" class="lead">Do you want to create your own shortened URL?</label>
-					<br>
-					<input type="radio" name="shortToggle" id="shortToggle1" value="no" checked>&nbsp;&nbsp;Automatically Generate
-					<input type="radio" name="shortToggle" id="shortToggle2" value="yes">&nbsp;&nbsp;Create My Own 
+				
+				<div class="jumbotron">
+					<div class="container">
+				        <h2>Make Your Own Shortened URL</h2>
+				        <p class="lead" id="caption">Say Goodbye to Long Addresses.</p>
+					</div>
 				</div>
-				<div id="shorty">
-					<label class="lead">Short URL:
-						<input type="text" name="shortUrl" id="shortUrl" placeHolder="Insert your shortened URL" disabled="disabled">
+				
+				<p class="lead" id="instruction">Redefine any link that you want</p>
+				<ol>
+					<li>Customize your own URL links.</li>
+					<li>Allows for ease of sharing.</li>
+				</ol>
+
+				<form id="urlform">
+					<label class="lead">Long URL: 
+						<input type="url" name="longUrl" placeholder="Insert a really long URL" required>
 					</label>
 					<div></div>
-				</div>
-				<input type="submit" class="btn btn-lg btn-success" value="Submit">
-			</form>	
-			<div id="returningShortURL"></div>
-		</div>
-	</body>		
+					<div class="lead">
+						<label for ="shortToggle1" class="lead">Do you want to create your own shortened URL?</label>
+						<br>
+						<div>
+							<input type="radio" name="shortToggle" id="shortToggle1" value="no" checked>&nbsp;&nbsp;Automatically Generate
+						</div>
+						<div>
+							<input type="radio" name="shortToggle" id="shortToggle2" value="yes">&nbsp;&nbsp;Create My Own 
+						</div>
+
+					</div>
+					<div id="shorty">
+						<label class="lead">Short URL:
+							<input type="text" name="shortUrl" id="shortUrl" placeHolder="Insert your shortened URL" disabled="disabled">
+						</label>
+						<div></div>
+					</div>
+					<input type="submit" class="btn btn-lg btn-success" value="Submit">
+				</form>	
+				<div id="returningShortURL"></div>
+			</div>
+		
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="static/js/jquery.validate.min.js"></script>
 	<script src="static/js/bootstrap.min.js"></script>
 	<script src="static/js/script.js"></script>
-	</html>
-
-
-
-
-
-
-
+	
+</body>	
+</html>
 
 
 

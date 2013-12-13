@@ -42,8 +42,10 @@ def about():
 def shorts():
     """Shortens the given url, and returns the association between the original and the shortened url"""
     #short_url= request.form["shortUrl"]
+    """Number of clicks and the time stamp
+    date, number of clicks. returned as json object"""
     long_url = request.form["longUrl"]
-    short_url=request.form.get("shortUrl","empty!")
+    short_url = request.form.get("shortUrl","empty!")
     urlDict = {v:k for k, v in db.items()}
     if(long_url in urlDict and short_url=="empty!"):
         short_url=urlDict[long_url]
@@ -137,5 +139,6 @@ def i253():
 
 
 if __name__ == "__main__":
-    app.run(port=int(environ['FLASK_PORT']))
+    app.run(port=63022)
+    #app.run(port=int(environ['FLASK_PORT']))
     

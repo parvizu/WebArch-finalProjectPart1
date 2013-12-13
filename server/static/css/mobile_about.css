@@ -1,0 +1,67 @@
+/*Mobile Portrait */
+  @media screen and (max-width: 320px) {
+    .jumbotron{
+      background-size: 100%;
+      background-position: absolute;
+      background-repeat: no-repeat;
+      padding-bottom: 20%;
+      margin-bottom: -19px;
+    }
+    .container{
+      max-width: 80%;
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+    .container h2{
+      font-size: 11pt;
+    }
+    .header h3{
+      line-height: 4px;
+      padding-bottom: 15px;
+    }
+    .container h1, h2, h3, h4, h5, h6 {
+      margin: 0px;
+    }
+    .lead{
+      margin-bottom: 4px;
+      font-size: 17px;
+      line-height: 12px;
+    }
+    h2{
+      line-height: 25px;
+    }
+
+    #teamBanner
+    {
+      display:none;
+    }
+
+    .individualPhoto
+    {
+      display:block;
+      border-color: black;
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      width:180px;
+      height:180px;
+      margin:5px;
+      margin-bottom:0px;
+    }
+
+    .row
+    {
+      margin: 0 auto;
+    }
+
+    .pablo,.ramit,.jenny
+    {
+      margin:0;
+      width: 195px;
+      padding:20px;
+      font-size: 20pt;
+      margin-bottom: 50px;
+    }
+    btn-sm
+
+  }

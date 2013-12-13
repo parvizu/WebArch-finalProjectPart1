@@ -7,24 +7,40 @@
 }
 .errors{
 	color: red;
-	margin-left: 9em;
-	margin-top: -2em;
+	display: inline;
 }
-
 p a{
 	text-decoration:none;
 	color:#5bb75b;
 }
-#shortToggle2{
-	margin-left:10px;
-}
+
 #shorty{
 	display:none;
 }
 input[type="radio"]{
 	margin: -2px 0 0;
 }
+.jumbotron{
+	background-size:50%;
+	background-repeat: repeat;
+	background: url('../img/background_img.JPG');
+    background-position: center center;
+  	padding-bottom: 105px}
+}
 .lead{
-	margin-bottom: 16px;
+	margin-bottom: 3px;
 	cursor: default;
+}
+ul, ol{
+	padding-bottom: 0px;
+}
+
+.individualPhoto
+{
+	display:none;
+}
+#logo
+{
+	width: 40px;
+	margin-left: -21px;
 }

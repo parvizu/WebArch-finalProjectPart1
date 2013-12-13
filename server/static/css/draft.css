@@ -1,0 +1,22 @@
+/* Standard Desktop */
+/*  @media only screen and (min-width: 960px) {
+  	body{
+      font-size:100%;
+    }
+    .jumbotron{
+ 		background: url('../img/background_img.JPG');
+    background-size: 50%;
+    background-position: center center;
+    background-repeat: repeat;
+  	padding-bottom: 105px}
+    .lead{
+      margin-bottom: 3px;
+    }
+    ul, ol{
+      padding-bottom: 0px;
+    }
+/*    .radio_labels{
+      font-size: 12px;*/
+/*    }
+  }
+*/

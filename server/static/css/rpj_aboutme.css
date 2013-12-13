@@ -17,4 +17,7 @@
 	margin-top:10px;
 	margin-left:6em;
 }
-
+#about_content{
+  margin: 0 auto;
+  width: 80%;
+}
